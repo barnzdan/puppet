@@ -7,7 +7,7 @@
 echo "Enter your full name: "
 read FULL_NAME
 
-echo "Enter your pgn email address: "
+echo "Enter your email address: "
 read EMAIL
 
 git config --global user.name "${FULL_NAME}"
